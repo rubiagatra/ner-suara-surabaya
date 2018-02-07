@@ -1,0 +1,3 @@
+site_name: ner-api Documentation
+theme:
+  name: 'material'
