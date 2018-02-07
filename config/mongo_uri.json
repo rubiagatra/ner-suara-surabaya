@@ -1,3 +1,3 @@
 { 
-    "MONGO_URI": "mongodb://<dbuser>:<dbpassword>@ds117758.mlab.com:17758/demo"
+    "MONGO_URI": "mongodb://sandbox:sandbox@ds117758.mlab.com:17758/demo"
 }

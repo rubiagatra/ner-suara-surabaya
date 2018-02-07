@@ -20,4 +20,4 @@ class Ner(Resource):
         ner_data = ent_recog.get_entity(data['message'])
         ner = NerModel(data['post_id'], data['created_time'], data['message'], ner_data) 
         ner.save_to_db()
-        return {'success': True, 'ner':ner}, 201
+        return {'success': True, 'ner':ner_data}, 201

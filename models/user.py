@@ -16,7 +16,7 @@ class UserModel:
     def find_by_username(cls, username):
         client = MongoClient(data['MONGO_URI'])
         db = client['demo']
-        collection = db['ner']
+        collection = db['user']
         result = collection.find_one({'username': username}) 
         if result:
             user = cls(_id=result['_id'], username=result['username'], password=result['password'])
