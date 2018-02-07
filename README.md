@@ -1,5 +1,5 @@
 # NER SUARA SUARABAYA 
-> Located where is traffic jam happen! 
+> Located where is traffic jam happened! 
 
 NER SUARA SURABAYA is a RESTful API app using Flask, Spacy, and MongoDB to know where is 
 traffic jam happened. The data come from [Suara Surabaya](https://www.facebook.com/e100ss) Facebook post.
@@ -23,11 +23,11 @@ python app.py
 
 ## Meta
 
-Doni Rubiagatra – [@rubiagatra](https://twitter.com/rubiagatra) – rubiagatra@gmail.com.com
+Doni Rubiagatra – [@rubiagatra](https://twitter.com/rubiagatra) – rubiagatra@gmail.com
+Hanum Kumala - [https://github.com/hanumkl](https://github.com/hanumkl/)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/rubiagatra/](https://github.com/rubiagatra/)
 
 ## Contributing
 
