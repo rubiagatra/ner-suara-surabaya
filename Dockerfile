@@ -10,9 +10,8 @@ WORKDIR /ner-api
 COPY . .
 
 RUN pip install -r requirements.txt
-
 EXPOSE 5000
 
-CMD gunicorn -b 0.0.0.0:5000  --access-logfile - wsgi:app
+CMD gunicorn -b 0.0.0.0:5000  --access-logfile - "ner_api.app:create_app()
 
 

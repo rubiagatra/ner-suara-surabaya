@@ -1,10 +1,11 @@
-# ner-suara-surabaya
-> Find the traffic jam! 
+# NER SUARA SUARABAYA 
+> Located where is traffic jam happened! 
 
-ner-suara-surabaya is a RESTful API app using Flask, Spacy, and MongoDB. The main task is to find a 
-street name or location in [Suara Surabaya](https://www.facebook.com/e100ss) Facebook post where traffic jam happened. 
+NER SUARA SURABAYA is a RESTful API app using Flask, Spacy, and MongoDB to know where is 
+traffic jam happened. The data come from [Suara Surabaya](https://www.facebook.com/e100ss) Facebook post.
 
-## Installation 
+
+## Installation
 
 OS X, Linux and Windows:
 
